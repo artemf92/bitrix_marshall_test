@@ -1,0 +1,9 @@
+.main .artists__name {
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	text-underline-offset: 3px;
+	transition: text-decoration-color .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.main .artists__name:hover {
+	text-decoration-color: currentColor;
+}
